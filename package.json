@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/divyasridurga-t/portfolio-website/issues"
   },
-  "homepage": "https://github.com/divyasridurga-t/portfolio-website#readme"
+  "homepage": "https://github.com/divyasridurga-t/portfolio-website#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.3"
+  }
 }
