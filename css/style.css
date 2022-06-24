@@ -9,23 +9,79 @@ background-size: cover;
 #container{
     display: flex;
     justify-content: center;
-    height: 500px;
+    height:550px;
     align-items: center;
 }
-.card{
-    height: 400px;
-    width: 350px;
+#card{
+    width:400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
-#profile-card{
-    display: flex;
-    justify-content: center;
-    
-}
-#profile-picture{
+#picture{
     border-radius: 200px;
 }
-#heading{
+#container2{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+}
+#name{
     font-size: 30px;
-    font-family:'Times New Roman';
+    display: flex;
+    justify-content: center;
+    color: rgba(245, 245, 245, 0.718);
+}
+#summary
+{
+    color: rgba(245, 245, 245, 0.718);
+    display: flex;
+    justify-content:space-evenly;
+    font-size:18px;
+    padding:10px;
+}
+#skills{
+    height:250px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#skillCard{
+    width:150px;
+    height: 200px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#icons{
+    font-size:40px;
+    color: rgba(245, 245, 245, 0.718);
+}
+i{
+    color: rgba(245, 245, 245, 0.718);
+}
+#MySkills{
+    display: flex;
+    justify-content: center;
+    color: rgba(245, 245, 245, 0.718);
+}
+#education{
+    height:250px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+#MyEducation{
+    display: flex;
+    justify-content: center;
+    color: rgba(245, 245, 245, 0.718);
+}
+#container4{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(245, 245, 245, 0.718);
 }
