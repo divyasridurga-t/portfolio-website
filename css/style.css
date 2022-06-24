@@ -1,0 +1,31 @@
+#Navbar{
+    top: 0px;
+    position: sticky;
+}
+body{
+ background: url("../images/image-1.jpg");
+background-size: cover;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 350px;
+}
+
+#profile-card{
+    display: flex;
+    justify-content: center;
+    
+}
+#profile-picture{
+    border-radius: 200px;
+}
+#heading{
+    font-size: 30px;
+    font-family:'Times New Roman';
+}
