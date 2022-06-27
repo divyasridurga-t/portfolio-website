@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divya Sri Durga</title>
+    <script src="./javascript/modes.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
         integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
@@ -14,30 +15,35 @@
 </head>
 
 <body>
-    <div id="Navbar" class="navbar-nav navbar-expand-lg navbar-dark bg-dark">
+    <div id="Navbar" class="navbar-nav navbar-expand-lg navbar-light bg-black bg-opacity-50">
         <div class="container-fluid">
-            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+            <button class="navbar-toggler btn-outline-light" data-bs-target="#menu" data-bs-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="menu">
+            <div class="collapse navbar-collapse justify-content-between" id="menu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link text-white">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link">About</a>
+                        <a href="#skills" class="nav-link text-white">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#container5" class="nav-link">Contact</a>
+                        <a href="#container5" class="nav-link text-white">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./images/Resume(u).pdf" download class="nav-link">Download CV</a>
+                        <a href="./images/Resume(u).pdf" download class="nav-link text-white">Download CV</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="bi bi-moon btn dark text-white" onclick="BtnClick()"></button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div id="container1">
+    <div>
         <div id="container">
             <div id="card">
                 <div id="container2">
@@ -48,7 +54,7 @@
                 </div>
                 <div id="summary">
                     <i>Btech graduate specialized in Electronics and Communication Engineering. Aspiring Front-End/UI
-                        Developer skilled in HTML, CSS, Bootstrap, JavaScript and jQuery. Passionate individual with
+                        Developer skilled in Web Technologies. Passionate individual with
                         good
                         interpersonal skills</i>
                 </div>
@@ -59,35 +65,45 @@
                 <h2><span class="bi bi-code-slash"></span>Technical Skills</h2>
             </div>
             <div id="container3">
-                <div id="skillCard">
-                    <figure>
-                        <img src="./images/html.png" width="100px" height="100px">
-                        <figcaption><i>Good understanding in HTML5.</i></figcaption>
-                    </figure>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-body" id="cardBody">
+                        <figure class="text-center">
+                            <img src="./images/html.png" width="100px" height="100px">
+                            <figcaption><i>HTML5</i></figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div id="skillCard">
-                    <figure>
-                        <img src="./images/css.png" width="100px" height="100px">
-                        <figcaption><i>Good understanding in CSS3</i></figcaption>
-                    </figure>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-body" id="cardBody">
+                        <figure class="text-center">
+                            <img src="./images/css.png" width="100px" height="100px">
+                            <figcaption><i>CSS3</i></figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div id="skillCard">
-                    <figure>
-                        <img src="./images/bootstrap.png" width="100px" height="100px">
-                        <figcaption><i>Good understanding in Bootstrap 5</i></figcaption>
-                    </figure>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-body" id="cardBody">
+                        <figure class="text-center">
+                            <img src="./images/bootstrap.png" width="100px" height="100px">
+                            <figcaption><i>Bootstrap5</i></figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div id="skillCard">
-                    <figure>
-                        <img src="./images/js.png" width="100px" height="100px">
-                        <figcaption><i>Good understanding in JavaScript</i></figcaption>
-                    </figure>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-body" id="cardBody">
+                        <figure class="text-center">
+                            <img src="./images/js.png" width="100px" height="100px">
+                            <figcaption><i>JavaScript</i></figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div id="skillCard">
-                    <figure>
-                        <img src="./images/jquery.png" width="100px" height="100px">
-                        <figcaption><i>Good understanding in jQuery</i></figcaption>
-                    </figure>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-body" id="cardBody">
+                        <figure class="text-center">
+                            <img src="./images/jquery.png" width="100px" height="100px">
+                            <figcaption><i>jQuery</i></figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -96,26 +112,44 @@
                 <h2><span class="bi bi-mortarboard-fill"></span> Academic Background</h2>
             </div>
             <div id="container4">
-                <div>
-                    <dt><span class="bi bi-mortarboard"></span><i>Graduation</i></dt>
-                    <dd><i>Degree:Btech</i></dd>
-                    <dd><i>Stream: Electronics and Communication Engineering(ECE)</i></dd>
-                    <dd><i>College: Global Institute of Engineering and Technology</i></dd>
-                    <dd><i>Aggregate: 7.28(CGPA)</i></dd>
-                    <dd><i>Year Of Pass: 2021</i></dd>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-header text-center">
+                        <span class="bi bi-mortarboard-fill"><i>Graduation</i></span>
+                    </div>
+                    <div class="card-body p-2">
+                        <ul>
+                            <li><i><b>Degree: </b>Btech</i></li>
+                            <li><i><b>Branch: </b>Electronics & Communication Engineering(ECE)</i></li>
+                            <li><i><b>College: </b>Global Institue of Engineering & Technolgy</i></li>
+                            <li><i><b>Aggregate: </b>7.8(CGPA)</i></li>
+                            <li><i><b>Year Of Pass: </b>2021</i></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <dt><span class="bi bi-mortarboard"></span><i>Intermediate</i></dt>
-                    <dd><i>Stream: Maths, Physics and Chemistry(MPC)</i></dd>
-                    <dd><i>College: Sri Chaitanya Junior Kalasala</i></dd>
-                    <dd><i>Aggregate: 83.2(%)</i></dd>
-                    <dd><i>Year Of Pass: 2017</i></dd>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-header text-center">
+                        <span class="bi bi-mortarboard-fill"><i>HSC</i></span>
+                    </div>
+                    <div class="card-body p-2">
+                        <ul>
+                            <li><i><b>Group:</b>MPC</i></li>
+                            <li><i><b>College: </b>Sri Chaitany Junior Kalasala</i></li>
+                            <li><i><b>Aggregate: </b>83.2(%)</i></li>
+                            <li><i><b>Year Of Pass: </b>2017</i></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <dt><span class="bi bi-mortarboard"></span><i>Schooling</i></dt>
-                    <dd><i>School:St.Arnold's High School</i></dd>
-                    <dd><i>Aggregate: 7.8(CGPA)</i></dd>
-                    <dd><i>Year Of Pass: 2015</i></dd>
+                <div class="card m-3 bg-transparent">
+                    <div class="card-header text-center">
+                        <span class="bi bi-mortarboard-fill"><i>SSC</i></span>
+                    </div>
+                    <div class="card-body p-2">
+                        <ul>
+                            <li><i><b>School: </b>St Arnold's High School</i></li>
+                            <li><i><b>Aggregate: </b>7.8(CGPA)</i></li>
+                            <li><i><b>Year Of Pass: </b>2014</i></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
