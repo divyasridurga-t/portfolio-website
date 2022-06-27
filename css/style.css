@@ -93,6 +93,7 @@ ul{
 }
 #container4{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
     color: rgba(245, 245, 245, 0.718);
