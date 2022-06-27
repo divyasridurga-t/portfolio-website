@@ -95,9 +95,6 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    width: 100%;
-    color: rgba(245, 245, 245, 0.718);
-    margin-top:15px;
 }
 
 dt{
