@@ -1,0 +1,125 @@
+
+        .navbar {
+            background: blueviolet;
+            color: white;
+            background-size: cover;
+        }
+
+        #SocialLinks {
+            position: fixed;
+            right: 0px;
+            bottom: 30px;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #icons {
+            padding: 6px;
+            border-radius: 20px;
+            background: white;
+            margin-bottom: 10px;
+        }
+
+        section {
+            height: 500px;
+            background: url("../images/background\ 2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #container1 {
+            height: 500px;
+            background: white;
+        }
+
+        #cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+
+        #Animation {
+            padding: 3px;
+            font-size: 30px;
+            font-style: italic;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typewriter 3s steps(11) infinite alternate,
+                blink 800ms steps(11) infinite normal;
+            border-right: 3px solid black;
+            background: linear-gradient(to right, blueviolet, blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        @keyframes typewriter {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 75%;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: grey;
+            }
+
+            to {
+                border-color: transparent;
+            }
+        }
+
+        #gif {
+            display: flex;
+            justify-content: center;
+        }
+
+        #typewriterAnime {
+            display: flex;
+            justify-content: center;
+        }
+
+        #text {
+            display: flex;
+            justify-content: center;
+            font-style: italic;
+            font-size: 15px;
+            color: rgb(88, 27, 145)
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+
+        #textContainer {
+            padding: 15px;
+        }
+
+        #links {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .btn {
+            border-radius: 30px;
+            background-color: blueviolet;
+        }
+        footer
+        {
+            background-color: blueviolet;
+            color: white;
+        }
+        #emailLink
+        {
+            color: white;
+        }
+        #footerDesign
+        {
+            padding: 15px;
+        }

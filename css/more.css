@@ -1,0 +1,142 @@
+
+.navbar {
+    background: blueviolet;
+    color: white;
+    background-size: cover;
+}
+
+#SocialLinks {
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#icons {
+    padding: 6px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+#emailLink {
+    color: white;
+}
+
+#footerDesign {
+    padding: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+}
+
+.text1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color:transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+
+.card-body:hover .text1 {
+    background-color: rgba(0, 0, 0, 0.359);
+    left: 0px;
+    color: white;
+}
+
+.text2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text2 {
+    background-color: rgba(0, 0, 0, 0.354);
+    left: 0px;
+    color: white;
+}
+
+.text3 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color:transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text3 {
+    background-color: rgba(0, 0, 0, 0.354);
+    left: 0px;
+    color: white;
+}
+
+.icard {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.hcard {
+    display: flex;
+    justify-content: center;
+}
+
+#hobbies {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}

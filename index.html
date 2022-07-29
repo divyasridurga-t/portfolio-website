@@ -5,163 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divya Sri Durga</title>
-    <script src="./javascript/modes.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio Website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
         integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <div id="Navbar" class="navbar-nav navbar-expand-lg navbar-light bg-black bg-opacity-50">
-        <div class="container-fluid">
-            <button class="navbar-toggler btn-outline-light" data-bs-target="#menu" data-bs-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link text-white">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#container5" class="nav-link text-white">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./images/Resume(u).pdf" download class="nav-link text-white">Download CV</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <button class="bi bi-moon btn dark text-white" onclick="BtnClick()"></button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div id="container">
-            <div id="card">
-                <div id="container2">
-                    <img src="./images/profilepic.jpg" id="picture" width="200px" height="200px">
-                </div>
-                <div id="name">
-                    Divya Sri Durga
-                </div>
-                <div id="summary">
-                    <i>Btech graduate specialized in Electronics and Communication Engineering. Aspiring Front-End/UI
-                        Developer skilled in Web Technologies. Passionate individual with
-                        good
-                        interpersonal skills</i>
+    <header>
+        <div class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link text-white">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./more.html" class="nav-link text-white">More</a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
-        <div id="skills">
-            <div id="MySkills">
-                <h2><span class="bi bi-code-slash"></span>Technical Skills</h2>
-            </div>
-            <div id="container3">
-                <div class="card m-3 bg-transparent">
-                    <div class="card-body" id="cardBody">
-                        <figure class="text-center">
-                            <img src="./images/html.png" width="100px" height="100px">
-                            <figcaption><i>HTML5</i></figcaption>
-                        </figure>
+    </header>
+    <section>
+        <div id="cards">
+            <div class="card border-0">
+                <div class="card-body" style="width:350px ; height:470px">
+                    <div id="gif">
+                        <img src="./images/homepage-banner-animated-2.gif" width="200px" height="200px">
                     </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-body" id="cardBody">
-                        <figure class="text-center">
-                            <img src="./images/css.png" width="100px" height="100px">
-                            <figcaption><i>CSS3</i></figcaption>
-                        </figure>
+                    <div id="typewriterAnime">
+                        <div id="Animation">
+                            Divya Sri Durga
+                        </div>
                     </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-body" id="cardBody">
-                        <figure class="text-center">
-                            <img src="./images/bootstrap.png" width="100px" height="100px">
-                            <figcaption><i>Bootstrap5</i></figcaption>
-                        </figure>
+                    <div id="textContainer">
+                        <div id="text">
+                            Btech graduate specialized in Electronics and Communication Engineering. Aspiring UI
+                            Developer
+                            skilled in Web Technologies. Passionate individual with good interpersonal skills.
+                        </div>
                     </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-body" id="cardBody">
-                        <figure class="text-center">
-                            <img src="./images/js.png" width="100px" height="100px">
-                            <figcaption><i>JavaScript</i></figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-body" id="cardBody">
-                        <figure class="text-center">
-                            <img src="./images/jquery.png" width="100px" height="100px">
-                            <figcaption><i>jQuery</i></figcaption>
-                        </figure>
+                    <div id="links">
+                        <div>
+                            <a href="./images/MyResume .pdf" download="resume" class="btn border-0 mt-2 text-white">Download CV</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="education">
-            <div id="MyEducation">
-                <h2><span class="bi bi-mortarboard-fill"></span> Academic Background</h2>
-            </div>
-            <div id="container4">
-                <div class="card m-3 bg-transparent">
-                    <div class="card-header text-center">
-                        <span class="bi bi-mortarboard-fill text-white"><i>Graduation</i></span>
-                    </div>
-                    <div class="card-body p-2">
-                        <ul>
-                            <li><i><b>Degree: </b>Btech</i></li>
-                            <li><i><b>Branch: </b>Electronics & Communication Engineering(ECE)</i></li>
-                            <li><i><b>College: </b>Global Institue of Engineering & Technolgy</i></li>
-                            <li><i><b>Aggregate: </b>7.8(CGPA)</i></li>
-                            <li><i><b>Year Of Pass: </b>2021</i></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-header text-center">
-                        <span class="bi bi-mortarboard-fill text-white"><i>HSC</i></span>
-                    </div>
-                    <div class="card-body p-2">
-                        <ul>
-                            <li><i><b>Group:</b>MPC</i></li>
-                            <li><i><b>College: </b>Sri Chaitany Junior Kalasala</i></li>
-                            <li><i><b>Aggregate: </b>83.2(%)</i></li>
-                            <li><i><b>Year Of Pass: </b>2017</i></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card m-3 bg-transparent">
-                    <div class="card-header text-center">
-                        <span class="bi bi-mortarboard-fill text-white"><i>SSC</i></span>
-                    </div>
-                    <div class="card-body p-2">
-                        <ul>
-                            <li><i><b>School: </b>St Arnold's High School</i></li>
-                            <li><i><b>Aggregate: </b>7.8(CGPA)</i></li>
-                            <li><i><b>Year Of Pass: </b>2014</i></li>
-                        </ul>
-                    </div>
-                </div>
+        <div id="SocialLinks" class="shadow-sm">
+            <div id="icons"><a href="www.linkedin.com/in/divya-sri-durga-0a8642237" class="bi bi-linkedin" style="color:#0077b5;"></a></div>
+            <div id="icons"><a href="https://github.com/divyasridurga-t" class="bi bi-github" style="color:black"></a></div>
+            <div id="icons"><a href="https://wa.me/916281308137" class="bi bi-whatsapp" style="color:#25d366;"></a></div>
+            <div id="icons"><a href="https://web.telegram.org/z/" class="bi bi-telegram" style="color:#0088cc;"></a></div>
+
+        </div>
+    </section>
+    <footer>
+        <div id="footerDesign">
+            <div>
+                <dt><i>Contact Details:</i></dt>
+                <dd><i>Mobile Number: +91 6281308137</i></dd>
+                <dd><i>Email:</i> <a id="emailLink" href="mailto:divyasridurga.t@gmail.com"><i>divyasridurga.t@gmail.com</i></a></dd>
+                <dd><i>Address:Beeramguda,<br>Hyderabad,502032</i></dd>
             </div>
         </div>
-    </div>
-    <div id="container5">
-        <div>
-            <dt><i>Contact Details:</i></dt>
-            <dd><i>Mobile Number: +91 6281308137</i></dd>
-            <dd><i>Email:</i> <a href="mailto:divyasridurga.t@gmail.com"><i>divyasridurga.t@gmail.com</i></a></dd>
-            <dd><i>Address:Beeramguda,<br>Hyderabad,502032</i></dd>
-        </div>
-    </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

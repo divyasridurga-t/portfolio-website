@@ -1,0 +1,281 @@
+
+.navbar {
+    background: blueviolet;
+    color: white;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+
+}
+
+#SocialLinks {
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#icons {
+    padding: 6px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.heading1 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.heading2 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.heading3 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+}
+
+.skillCard {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: 1s;
+}
+
+figcaption:hover {
+    background: blueviolet;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-style: italic;
+}
+
+.EduCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#educard1 {
+    width: 300px;
+    height: 250px;
+    color: rgb(107, 21, 187);
+}
+
+.card-header {
+    background: blueviolet;
+    color: white;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+#emailLink {
+    color: white;
+}
+
+#footerDesign {
+    padding: 15px;
+}
+
+.projectCard {
+    display: flex;
+    justify-content: center;
+}
+.card-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bmiBtn
+{
+    background: white;
+    color: blueviolet;
+    font-weight: bold;
+    transition: 1.5s;
+    box-shadow: 4px 4px 2px lightgray;
+}
+.bmiBtn:hover
+{
+    background: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.bmiHeader
+{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.831);
+}
+.text1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text1 {
+    left: 0px;
+    color:black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color:transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text2 {
+    left: 0px;
+    color:black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text3 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text3 {
+    left: 0px;
+    color:black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text4{
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color:transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text4
+{
+    left: 0px;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text5 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    /* z-index: 1000; */
+    top: 70%;
+    left: -50%;
+    color:transparent;
+    font-weight: 300;
+    font-size: 13px;
+    width: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+
+}
+
+.card-body:hover .text5 {
+    left: 0px;
+    color:black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+
+}
